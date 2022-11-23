@@ -15,4 +15,8 @@ server.get('/greeting', (req, res) => {
   res.json({ greeting: greetings[index] })
 })
 
+server.get('*', (req, res) => {
+  res.sendFile(path.resolve('server/public/index.html'))
+})
+
 module.exports = server
