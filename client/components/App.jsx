@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, BrowserRoutes as Router } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 import Home from './Home'
 import Header from './Header'
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </>
   )
