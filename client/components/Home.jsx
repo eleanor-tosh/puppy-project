@@ -1,5 +1,5 @@
 import React from 'react'
-import HandlingDropdown from './HandlingDropdown'
+import Handling from './Handling'
 
 function Home() {
   const current = new Date()
@@ -10,11 +10,15 @@ function Home() {
   return (
     <>
       <div>
-        <h1>TODAY : {date}</h1>
-        <p>Tick off at least one task from each category</p>
+        <div className="text-2xl font-bold mb-4">
+          <h1>TODAY : {date}</h1>
+        </div>
+        <div className="mb-2">
+          <p>Tick off at least one task from each category</p>
+        </div>
       </div>
       <div>
-        <HandlingDropdown />
+        <Handling />
       </div>
     </>
   )

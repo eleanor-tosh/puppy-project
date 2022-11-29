@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HandlingDropdown() {
+function Handling() {
   return (
     <>
       <div>
@@ -16,4 +16,4 @@ function HandlingDropdown() {
   )
 }
 
-export default HandlingDropdown
+export default Handling
