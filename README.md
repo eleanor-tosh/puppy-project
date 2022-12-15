@@ -1,4 +1,30 @@
-# Boilerplate: React with Webpack
+# Social Puppy
+An app to help you track your socialising of your puppy.
+
+## User Stories:
+I want to be able to record what puppy socializing activities I have completed each day.
+I want to be able to pick activities from a list that includes different categories.
+I want to be able to see statistics for the activities that I have done - number of unique activities, number of each category per day and per week, on a graph if possible.
+I want to add activities to today and past dates incase I don't get to it immediately.
+I want to be able to record notes for each activity to remind myself of how the puppy responded.
+Perhaps add flags to important activities that need more attention.
+I want to be able to see some puppy raising tips.
+I want to have a record of for when I need to do vaccination/worming/health concerns etc.
+
+## Additional Features to Consider:
+Sort/filter function for tasks - by key word, by date
+Auth0
+Profile function- add puppy, edit, delete, upload, photo/s (of puppy? of socialing or other important stuff?)
+Weekly overview/report - potentially automatically email a report to who ever you want it sent to
+Maybe add a quiz or a game
+
+## Tech Targets
+React, database, tailwind, image upload, Auth0
+
+
+# Boilerplate Details:
+
+## Boilerplate: React with Webpack
 This is a starter project that uses webpack to transpile and bundle ES6 React code. 
 
 ## Setup
